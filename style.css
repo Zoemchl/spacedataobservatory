@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color: #07072d;
+    color: white;
+}
+
+h1 {
+    font-family: bdr-mono, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+}
+
+p{
+    font-family: "omnium";
+    font-weight: 100;
+    font-size: 40px;
+    padding: 4%;
+}
+
+h2{
+    font-family: bdr-mono, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 4%;
+    text-align: center;
+}
+
+.simple_text{
+    font-size: 17px;
+    text-align: start;
+}
+
+.tracker_map{
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.wm_style{
+    width: 100%;
+}
+
+.iss_style{
+    height: 10vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.picture_day{
+    padding-bottom: 5%;
+}
+
+.btn, .btn_planet{
+    width: 10%;
+    background-color: green;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "omnium";
+}
+
+.little_div{
+    width: 30%;
+    background-color: white;
+}
+
+.infos_planet{
+    font-size: 10px;
+    color: #07072d;
+}
+
+.planet_style{
+    font-size: 20px;
+}
+
+.containers_planet{
+    max-width: 100%;
+}
+
+#planets{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.simple_text{
+    text-align: center;
+}

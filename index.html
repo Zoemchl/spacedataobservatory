@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/hdi2dky.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hdi2dky.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SPACE DATA OBSERVATORY</title>
+</head>
+<body>
+        <header>
+            <p>Welcome to the</p>
+            <h1>SPACE DATA OBSERVATORY</h1>
+        </header>
+        
+        <section id="iss_section">
+            <h2>ISS TRACKER</h2>
+                <div class="tracker_map">
+                    <img src="src/darkworldmap.jpg" alt="Dark Worldmap" class="wm_style">
+                    <img src="src/iss.png" alt="International Space Station" class="iss_style">
+                    <a class="btn" onclick="getCor()">Refresh</a>
+                </div>
+        </section>
+
+
+        <section id="planets_section">
+            <h2>Planets</h2>
+            <div class="containers_planet">
+                <div id="planets">
+                </div>
+                <div id="result_infos">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="picture_day">
+            <h2>Wanna know which image was taken by NASA on your birthday ?</h2>
+            <p class="simple_text">Please, enter a date between 1995 and today :</p>
+            <form>
+                <input id="date_input" type="date" min="1995-06-16" max="2022-01-29"/>
+                <a class="btn" onclick="getPic()">Find out</a>       
+            </form>
+            <div id="img_container">
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
